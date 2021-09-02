@@ -36,25 +36,38 @@ data-wf-page="6026b74a6db40f05d7bc044c" data-wf-site=
         position: fixed;
       }
 
-  body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
+  body, div {
+  height: 200px;
+  padding: 5em;
+  color: white;
+  background: linear-gradient(270deg, red, purple, blue);
+  background-size: 200% 200%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-  }
-    
 
   </style>
   <link href=
@@ -851,32 +864,38 @@ data-wf-page="6026b74a6db40f05d7bc044c" data-wf-site=
         <div class="card-secondary">
           <div class="card-padding">
             <div class="section-title">
-              <h2 class="margin-bottom-0">Featured Categories</h2>
+              <h2 class="margin-bottom-0">Browse by Category</h2>
             </div>
             <ul role="list" class="list-grid">
               <li>
                 <a href="#" target="_blank" class=
-                "link-hover-border-bottom">This Nonviolent Stuff'll
-                Get You Killed</a>
+                "link-hover-border-bottom">Straight</a>
                 <div class="badge-text margin-bottom-xs">
-                  by Charles E. Cobb Jr.
+                 250+ verified profiles
                 </div>
               </li>
               <li>
                 <a href="#" target="_blank" class=
-                "link-hover-border-bottom">Shantaram</a>
+                "link-hover-border-bottom">Lesbian</a>
                 <div class="badge-text margin-bottom-xs">
-                  by Gregory David Roberts
+                  100+ verified profiles
                 </div>
               </li>
               <li>
                 <a href="#" target="_blank" class=
-                "link-hover-border-bottom">The Secret to My
-                Endurance</a>
+                "link-hover-border-bottom">Couples</a>
                 <div class="badge-text margin-bottom-xs">
-                  by Charles Bukowski
+                  50+ verified profiles
                 </div>
               </li>
+		    
+		<li>
+                <a href="#" target="_blank" class=
+                "link-hover-border-bottom">Trans</a>
+                <div class="badge-text margin-bottom-xs">
+                  20+ verified profiles
+                </div>
+              </li>    
             </ul>
           </div>
         </div>
@@ -893,27 +912,83 @@ data-wf-page="6026b74a6db40f05d7bc044c" data-wf-site=
             <ul role="list" class="list-grid">
               <li>
                 <a href="#" target="_blank" class=
-                "link-hover-border-bottom">The Gift Outright</a>
+                "link-hover-border-bottom">Eastern Cape</a>
                 <div class="badge-text margin-bottom-xs">
-                  by Robert Frost
+                  Adelaide, Alice, Aliwal North...
                 </div>
               </li>
+		
+		     <li>
+                <a href="#" target="_blank" class=
+                "link-hover-border-bottom">Free State</a>
+                <div class="badge-text margin-bottom-xs">
+                  Allanridge, Bethlehem, Bloemfontein...
+                </div>
+              </li>
+		    
               <li>
                 <a href="#" target="_blank" class=
-                "link-hover-border-bottom">Hope Is the Thing With
-                Feathers</a>
+                "link-hover-border-bottom">Gauteng</a>
                 <div class="badge-text margin-bottom-xs">
-                  by Emily Dickinson
+                  A P Khumalo, Aandrus, Aanwins AH...
                 </div>
               </li>
-              <li>
+		    
+		    
+		 <li>
                 <a href="#" target="_blank" class=
-                "link-hover-border-bottom">On the Pulse of
-                Morning</a>
+                "link-hover-border-bottom">KwaZulu-Natal</a>
                 <div class="badge-text margin-bottom-xs">
-                  by Maya Angelou
+                  Ballitoville, Bergville, Camperdown...
+                </div>
+              </li>    
+		    
+		    
+		     <li>
+                <a href="#" target="_blank" class=
+                "link-hover-border-bottom">Limpopo</a>
+                <div class="badge-text margin-bottom-xs">
+                  Dendron, Duiwelskloof, Ellisras...
                 </div>
               </li>
+		    
+		      <li>
+                <a href="#" target="_blank" class=
+                "link-hover-border-bottom">Mpumalanga</a>
+                <div class="badge-text margin-bottom-xs">
+                  Ackerville, Aerorand, Alkmaar...
+                </div>
+              </li>
+		    
+		 <li>
+                <a href="#" target="_blank" class=
+                "link-hover-border-bottom">North-West</a>
+                <div class="badge-text margin-bottom-xs">
+                  COMING SOON...
+                </div>
+              </li>
+		    
+		    
+		     <li>
+                <a href="#" target="_blank" class=
+                "link-hover-border-bottom">Northern Cape</a>
+                <div class="badge-text margin-bottom-xs">
+                  COMING SOON...
+                </div>
+              </li>
+		    
+		    
+		      <li>
+                <a href="#" target="_blank" class=
+                "link-hover-border-bottom">Western Cape</a>
+                <div class="badge-text margin-bottom-xs">
+                  Atlantis, Beaufort-West, Bredasdorp...
+                </div>
+              </li>
+		
+		   
+		    
+             
             </ul>
           </div>
         </div>
