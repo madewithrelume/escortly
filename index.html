@@ -42,9 +42,10 @@ $pp-ltblue: #00a7cf;
 $sp-yellow: #efe348;
 
 html, body {
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
 }
-.wrapper, .page-wrap {
+.wrapper {
   align-items: center;
   background-image: linear-gradient(to right, $pp-blue,$pp-ltblue,$sp-yellow,$pp-purple,$pp-blue);
   background-size: 600%;
@@ -63,7 +64,7 @@ h1 {
   color: white;
   font-size: 2.4em;
   text-align: center;
-  text-transform: uppercase;
+  font-weight: bold;
 }
 @media (max-width: 830px) {
   h1 {
@@ -520,9 +521,12 @@ h1 {
   </script>
   <link rel="canonical" href="https://escortly.co.za">
 </head>
+
+
 <body>
   <!-- BEGIN content_for_index --><!-- END content_for_index -->
-  <div class="link-template-menu">
+ 
+ <div class="link-template-menu">
     <a data-w-id="c3dd218a-53fd-da6a-09e4-98db2b7947b0" href="#"
     class="link-template-icon-button hide w-inline-block"><img src=
     "https://assets.website-files.com/6012d939a7f34155b3f709eb/603280d2b3432d282cb8cc89_close.svg"
@@ -540,7 +544,9 @@ h1 {
     loading="lazy" alt="Share Icon" class=
     "link-template-arrow"></a>
   </div>
-  <div class="page-wrap">
+
+
+  <div class="wrapper page-wrap">
     <div class="page-wrap-padding-grid">
       <div>
         <div class="card-secondary">
